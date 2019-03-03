@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="TuFriend:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>TuFriend</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="mybatis_generator.war">
+      <element id="artifact" artifact-name="TuFriend:war exploded" />
+    </root>
+  </artifact>
+</component>
